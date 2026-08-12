@@ -1,0 +1,21 @@
+package: cloud.lazycat.app.media-converter
+version: 1.0.0
+name: Media Converter
+description: "Multi-format media converter supporting MP4, AVI, MKV, MOV, MP3, WAV, AAC, FLAC and more"
+license: MIT
+homepage: https://github.com/fengzeest-cpu/avcnv
+author: fengzeest-cpu
+min_os_version: 1.5.0
+
+locales:
+  en:
+    name: "Media Converter"
+    description: "Multi-format media converter supporting MP4, AVI, MKV, MOV, MP3, WAV, AAC, FLAC and more"
+  zh:
+    name: "媒体转换器"
+    description: "支持MP4、AVI、MKV、MOV、MP3、WAV、AAC、FLAC等多种格式的媒体文件转换器"
+
+unsupported_platforms:
+  - ios
+  - android
+  - tvos
